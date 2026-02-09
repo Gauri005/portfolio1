@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gauri | Certifications</title>
+<link rel="icon" type="png" href="favicon.png">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mobile-header">
+  <div>Gauri.dev</div>
+  <div class="menu-toggle" id="menuToggle">&#9776;</div>
+</div>
+
+<div class="sidebar" id="sidebar">
+
+  <div class="logo">
+  <img src="logo.png" alt="logo">
+  <span>Gauri.dev</span>
+</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="training.html">Training</a>
+
+    <a href="certifications.html">Certifications</a>
+    <a href="achievements.html">Achievements</a>
+
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+</div>
+
+<div class="main">
+
+<h1 class="page-title center-title">Certifications</h1>
+
+<div class="cert-container">
+
+  <div class="cert-card">
+    <h3>🤖 ChatGPT Made Easy</h3>
+    <p>Infosys</p>
+    <button class="btn-cert" onclick="openModal('ai.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>🧠Deep Learning</h3>
+    <p>NPTEL</p>
+    <button class="btn-cert" onclick="openModal('Deep Learning.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>🌐Network Communication</h3>
+    <p>University of Colorado</p>
+    <button class="btn-cert" onclick="openModal('networking.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>🎨Responsive Web Design</h3>
+    <p>FreeCodeCamp</p>
+    <button class="btn-cert" onclick="openModal('freecode1.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>Peer-to-Peer Protocols and Local Area Networks</h3>
+    <p>Coursera</p>
+    <button class="btn-cert" onclick="openModal('peer.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>The Bits and Bytes of Computer Networking
+</h3>
+    <p>Google</p>
+    <button class="btn-cert" onclick="openModal('bits.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+  <div class="cert-card">
+    <h3>Indusrial Training</h3>
+    <p>SkillStone</p>
+    <button class="btn-cert" onclick="openModal('training.jpg')">
+      View Certificate
+    </button>
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div id="certModal" class="modal">
+  <span class="close-btn" onclick="closeModal()">×</span>
+  <img id="modalImage" class="modal-content">
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
